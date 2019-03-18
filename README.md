@@ -8,7 +8,7 @@ The game was developed using [FlashDevelop](http://www.flashdevelop.org).
 ## Licensing
 Most code in this application is licensed under the MIT license. However, some parts are licensed differently or at the very least have their own permission notices. Graphical assets are also licensed separately.
 
-This repository is currently distributed with 3 external libraries.
+This repository is currently distributed with 3 external libraries. These are only included for convenience and have their own licenses.
 
 1. [FlashPunk](http://useflashpunk.net) is included by source and located in `src/net/flashpunk`. It is licensed by [Chevy Ray Johnston](https://github.com/useflashpunk/FlashPunk/blob/master/license.txt) under the MIT license. I have made some additions to the code and those are also licensed under the MIT license. These additions are minor but may be required for full functionality of the game and its UI.
 
