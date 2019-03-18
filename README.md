@@ -5,6 +5,17 @@ The codebase has not been explicitly prepared for an open source release and may
 
 The game was developed using [FlashDevelop](http://www.flashdevelop.org).
 
+## UI library
+Of particular interest to anyone looking to write a flash game in a similar vein is the UI library I created during the making of this game. It has many components: text field, button and sliders (with a visible grip or more like a loading bar) to name a few. All components can be styled to pretty much anything, although it requires some digging around in code. All components can be created with a single line of code and there are some nice features like being able to add tooltips, automatically fade out and remove buttons etc.
+
+I say library, but there are some peculiarities. The main UI library is located in `/src/ui2` so anyone who wants to use this library can just copy that folder. Some components however, like checkboxes, were never implemented in UI-2, but only exists in UI-1. If you want to use those, you need `/src/ui` as well. UI-1 has many of the same components as UI-2 as well, but you want to use UI-2 wherever possible.
+
+A requirement for using the libraries is the [FlashPunk](http://useflashpunk.net) library. You can download it from their site, but if I remember correctly, I've done some additions to that library. That version is available in `/src/net/flashpunk/` and you could just copy that too.
+
+Every screen in the game is a FlashPunk "world". To find out how to use the UI components, checkout any of the BHP worlds in `/src/worlds/`. You may have to dig around a bit, but I'm sure most things can be figured out. One thing to note is that the text rendering is terribly slow for long texts, like those found in the TutorialWorld. As such, worlds with long text has to be pre-loaded or there will be a slight delay when entering them. For BHP, pre-loading is done in LoadingWorld.
+
+If there are any questions, feel free to contact me (Gardamuse).
+
 ## Licensing
 Most code in this application is licensed under the MIT license. However, some parts are licensed differently or at the very least have their own permission notices. Graphical assets are also licensed separately.
 
