@@ -43,13 +43,14 @@ package worlds
 				"\n<fff>MythicalCreatureBone</fff><sSmall> | Characters: Sebastian, Maxwell, Dionysus, Anthony</sSmall>" +
 				"\n<fff>Mistress-Gonzy</fff><sSmall> | Character: Gonzy</sSmall>" +
 				"\n<fff>Tfgame</fff><sSmall> | Character: Elena</sSmall>" +
+				"\n<fff>MaddieMeadows</fff><sSmall> | Bug Banishing</sSmall>" +
 				
 				"\n\n\n<sMedium><cBC>With extra thanks to...</sMedium></cBC>" +
 				"\n<fff>Goldwyn11</fff><sSmall> | For ideas and testing</sSmall>" +
 				"\n<fff>GrapplerOfBooty</fff><sSmall> | For ideas and testing</sSmall>" +
-				"\n<fff>CycloneSamurai</fff><sSmall> | For his Bimbo Poker series</sSmall>" +
+				"\n<fff>CycloneSamurai</fff><sSmall> | For the Bimbo Poker series</sSmall>" +
 				"\n<fff>Master-TF</fff><sSmall> | For inspiration and support</sSmall>" +
-				"\n<fff>Marioland1</fff><sSmall> | For his in-depth gameplay insights</sSmall>" +
+				"\n<fff>Marioland1</fff><sSmall> | For in-depth gameplay insights</sSmall>" +
 				"\n<fff>All who comment</fff><sSmall> | For feedback and great inspiration</sSmall>"
 			});
 			peopleF.add(this);

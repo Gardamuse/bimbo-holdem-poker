@@ -96,6 +96,10 @@ package worlds
 				{ text:	"<sMedium><cBC>Patch 1.2.3</cBC></sMedium>\n<left>" +
 						"\n*Fixed typo." +
 						"", fontsize: 14 } ).add(this);
+			new BasicTextField(0, 600, sw/2 + 250, 80, 
+				{ text:	"<sMedium><cBC>Patch 1.2.4</cBC></sMedium>\n<left>" +
+						"\n*Fixed bug that caused games to not end and allowed eliminated players to bet. Fix pointed out by MaddieMeadows." +
+						"", fontsize: 14 } ).add(this);
 						
 						
 				

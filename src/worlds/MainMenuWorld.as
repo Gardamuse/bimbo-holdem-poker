@@ -71,7 +71,7 @@ package worlds
 			creditsB = new BasicButton(sw/2 - bw/2, (sh-ha*2) * (8 / (rows + 1)) + ha - 50, bw, bh, { text:"Credits", callbacks:[credits], fontsize:fontsize }, 1 );
 			creditsB.add(this);
 			
-			new BasicTextField(sw - 230, sh - 25, 230, 25, { text:"Version 1.2.3", fontsize: 14 } ).add(this);
+			new BasicTextField(sw - 230, sh - 25, 230, 25, { text:"Version 1.2.4", fontsize: 14 } ).add(this);
 
 			new BasicTextField(sw - 230, sh - 40 - 25, 230, 40, { text:
 				"<cBC>This game contains sexual content.</cBC>" +

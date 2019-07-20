@@ -550,7 +550,7 @@ package worlds
 			if (nr > 100) {
 				trace("Can't find nearest player.");
 			}
-			return nr + 1;
+			return (nr + 1) % players.length;
 		}
 		
 		private function getNearestNonOutPlayerNrAfter(nr:int):int {
@@ -561,7 +561,7 @@ package worlds
 			if (nr > 100) {
 				trace("Can't find nearest player.");
 			}
-			return nr + 1;
+			return (nr + 1) % players.length;
 		}
 		
 		private function turnToNext():void 
